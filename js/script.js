@@ -476,8 +476,8 @@ $(function() {
           var dateLabel = trash.getDateLabel();
           //あと何日かを計算する処理です。
           var leftDay = Math.ceil((trash.mostRecent.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
-
           var leftDayText = "";
+/*
           if (leftDay == 0) {
             leftDayText = "今日";
           } else if (leftDay == 1) {
@@ -487,7 +487,7 @@ $(function() {
           } else {
             leftDayText = leftDay + "日後";
           }
-
+*/
           styleHTML += '#accordion-group' + d_no + '{background-color:  ' + description.background + ';} ';
 
           accordionHTML +=
