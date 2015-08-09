@@ -502,7 +502,9 @@ $(function() {
             accordionHTML += '<p class="text-center">' + description.label + "</p>";
           }
           accordionHTML += "</div>" +
-            '<h6><p class="text-left date">' + dateLabel + "</p></h6>" +
+            '<h6><p class="text-left date">'
+ + /*dateLabel +*/
+"</p></h6>" +
             "</a>" +
             "</div>" +
             '<div id="collapse' + i + '" class="accordion-body collapse">' +
